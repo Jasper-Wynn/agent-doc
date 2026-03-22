@@ -6,13 +6,13 @@
 
 ```mermaid
 flowchart TD
-    A[用户需求] --> B[第一阶段: 设计]
-    B --> C[@agent-architect<br/>Opus 4.6<br/>输出设计方案]
+    A[用户需求] --> B["第一阶段: 设计"]
+    B --> C["@agent-architect<br/>Opus 4.6<br/>输出设计方案"]
     C --> D{人工确认?}
     D -->|否| B
-    D -->|是| E[第二阶段: 执行]
-    E --> F[@agent-backend<br/>Sonnet 4.6<br/>实现接口]
-    F --> G[@agent-tester<br/>Haiku 4.5<br/>pytest + playwright]
+    D -->|是| E["第二阶段: 执行"]
+    E --> F["@agent-backend<br/>Sonnet 4.6<br/>实现接口"]
+    F --> G["@agent-tester<br/>Haiku 4.5<br/>pytest + playwright"]
 
     style A fill:#e1f5ff
     style B fill:#fff3cd
