@@ -236,10 +236,10 @@ tools: Read, Write, Edit, Glob
 ## Subagent 调用规则
 
 ### 自动触发
-- 代码提交后 → @agent-code-reviewer
-- 涉及认证/数据处理 → @agent-security-checker
-- 代码变更后 → @agent-test-runner
-- API 变更后 → @agent-doc-writer
+- 代码提交后 -@agent-code-reviewer
+- 涉及认证/数据处理 -@agent-security-checker
+- 代码变更后 -@agent-test-runner
+- API 变更后 -@agent-doc-writer
 
 ### 手动调用
 - "@agent-code-reviewer 审查 src/auth/"
@@ -269,7 +269,7 @@ claude
 
 # 自动触发（提交后）
 "git commit -m 'feat: add user auth'"
-# → 自动调用 code-reviewer
+# -自动调用 code-reviewer
 
 # 手动触发
 "@agent-code-reviewer 审查最近的改动"
@@ -310,9 +310,9 @@ claude
 
 ```mermaid
 flowchart TD
-    A[任务类型] --> B[复杂推理<br/>→ Opus]
-    A --> C[常规任务<br/>→ Sonnet]
-    A --> D[简单重复<br/>→ Haiku]
+    A[任务类型] --> B[复杂推理<br/>-Opus]
+    A --> C[常规任务<br/>-Sonnet]
+    A --> D[简单重复<br/>-Haiku]
 
     B --> E[架构设计<br/>安全审查]
     C --> F[代码实现<br/>文档编写]

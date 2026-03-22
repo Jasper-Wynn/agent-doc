@@ -320,7 +320,7 @@ def test_login_invalid_email(email):
 from playwright.sync_api import Page, expect
 
 def test_complete_user_flow(page: Page):
-    """测试完整用户流程：注册 → 登录 → 操作 → 登出"""
+    """测试完整用户流程：注册 -登录 -操作 -登出"""
 
     # 1. 注册
     page.goto("http://localhost:3000/register")

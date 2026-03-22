@@ -1,6 +1,6 @@
 # 两阶段工作流配置
 
-> 设计确认 (Opus) → 执行实现 (Sonnet/Haiku)
+> 设计确认 (Opus) -执行实现 (Sonnet/Haiku)
 
 ## 工作流程
 
@@ -213,9 +213,9 @@ model: claude-haiku-4-5
 3. 未收到确认前，**禁止进入第二阶段**
 
 ### 第二阶段：执行（确认后依次执行）
-1. `@agent-backend` → 实现接口
-2. `@agent-tester` → pytest + playwright
-3. `@agent-devops` → 更新 CI/CD
+1. `@agent-backend` -实现接口
+2. `@agent-tester` -pytest + playwright
+3. `@agent-devops` -更新 CI/CD
 
 ## 模型分工
 | 角色 | 模型 | 原因 |
@@ -245,7 +245,7 @@ claude "开发用户权限模块"
 数据库用 PostgreSQL 不用 SQLite，其他没问题，确认执行
 
 # 主 agent 收到确认后自动触发第二阶段
-# backend → tester → devops 依次执行
+# backend -tester -devops 依次执行
 ```
 
 ### 复杂场景

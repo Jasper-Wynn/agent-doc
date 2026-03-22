@@ -4,15 +4,15 @@
 
 ## 什么是 Agent？
 
-**Agent** - 能自主执行任务以达到目标的 AI 系统，核心是 **循环执行**：观察 → 思考 → 行动 → 验证
+**Agent** - 能自主执行任务以达到目标的 AI 系统，核心是 **循环执行**：观察 -思考 -行动 -验证
 
 ## Chatbot vs Agent
 
 ```mermaid
 flowchart LR
-    A[Chatbot] --> B["用户 → 模型 → 回答 → 结束"]
+    A[Chatbot] --> B["用户 -模型 -回答 -结束"]
 
-    C[Agent] --> D["用户 → 目标 → 循环执行 → 结果"]
+    C[Agent] --> D["用户 -目标 -循环执行 -结果"]
 
     style A fill:#e1f5ff
     style B fill:#ffcc80

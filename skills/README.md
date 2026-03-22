@@ -39,7 +39,7 @@ flowchart TD
     A --> C[用户自定义<br/>项目特定]
     A --> D[社区贡献<br/>第三方发布]
 
-    B --> E[/commit /review /debug<br/>/ship /qa /release]
+    B --> E["/commit /review /debug<br/>/ship /qa /release"]
     C --> F[团队约定<br/>业务逻辑]
     D --> G[awesome-skills<br/>工具集成]
 

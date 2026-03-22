@@ -473,9 +473,9 @@ Agent Team 消耗约 15 倍 token，需合理使用：
 
 ```mermaid
 flowchart TD
-    A[任务判断] --> B[简单任务<br/>→ 主会话]
-    A --> C[独立任务<br/>→ Subagent]
-    A --> D[协作任务<br/>→ Agent Team]
+    A[任务判断] --> B[简单任务<br/>-主会话]
+    A --> C[独立任务<br/>-Subagent]
+    A --> D[协作任务<br/>-Agent Team]
 
     D --> E[队友用 Haiku<br/>节省成本]
     D --> F[只有队长用 Opus<br/>复杂决策]

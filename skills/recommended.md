@@ -102,12 +102,12 @@ curl -o ~/.claude/skills/eslint-auto-fix.md \
 
 ```mermaid
 flowchart TD
-    A{你的需求?} --> B[代码提交<br/>→ /commit]
-    A --> C[代码审查<br/>→ /review]
-    A --> D[调试 Bug<br/>→ /debug]
-    A --> E[发布部署<br/>→ /ship]
-    A --> F[新功能设计<br/>→ brainstorming]
-    A --> G[执行计划<br/>→ executing-plans]
+    A{你的需求?} --> B["代码提交<br/>-/commit"]
+    A --> C["代码审查<br/>-/review"]
+    A --> D["调试 Bug<br/>-/debug"]
+    A --> E["发布部署<br/>-/ship"]
+    A --> F["新功能设计<br/>-brainstorming"]
+    A --> G["执行计划<br/>-executing-plans"]
 
     style A fill:#e1f5ff
     style B fill:#4caf50

@@ -61,9 +61,9 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A{任务类型?} --> B[复杂协作<br/>→ Agent Team]
-    A --> C[简单任务<br/>→ Subagent]
-    A --> D[单一功能<br/>→ 主会话]
+    A{任务类型?} --> B[复杂协作<br/>-Agent Team]
+    A --> C[简单任务<br/>-Subagent]
+    A --> D[单一功能<br/>-主会话]
 
     B --> E[需要讨论<br/>分工协作]
     C --> F[快速专注<br/>独立执行]

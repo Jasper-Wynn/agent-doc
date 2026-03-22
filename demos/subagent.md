@@ -85,10 +85,10 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A{场景判断} --> B[大文件分析<br/>→ Subagent]
-    A --> C[并行任务<br/>→ Subagent]
-    A --> D[隔离实验<br/>→ Subagent]
-    A --> E[简单任务<br/>→ 主会话]
+    A{场景判断} --> B[大文件分析<br/>-Subagent]
+    A --> C[并行任务<br/>-Subagent]
+    A --> D[隔离实验<br/>-Subagent]
+    A --> E[简单任务<br/>-主会话]
 
     style A fill:#e1f5ff
     style B fill:#4caf50

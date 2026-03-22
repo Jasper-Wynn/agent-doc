@@ -8,11 +8,11 @@
 
 ```mermaid
 flowchart TD
-    A[我想...] --> B[了解概念<br/>→ concepts/]
-    A --> C[找 Skills<br/>→ skills/]
-    A --> D[配置项目<br/>→ config/]
-    A --> E[看 Demo<br/>→ demos/]
-    A --> F[找文档<br/>→ links/]
+    A[我想...] --> B[了解概念<br/>-concepts/]
+    A --> C[找 Skills<br/>-skills/]
+    A --> D[配置项目<br/>-config/]
+    A --> E[看 Demo<br/>-demos/]
+    A --> F[找文档<br/>-links/]
 
     style A fill:#e1f5ff
     style B fill:#fff3cd

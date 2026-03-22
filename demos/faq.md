@@ -6,12 +6,12 @@
 
 ```mermaid
 flowchart TD
-    A[遇到问题?] --> B[基础配置<br/>→ config/settings-json.md]
-    A --> C[Git 工作流<br/>→ config/git-workflow.md]
-    A --> D[tmux 分屏<br/>→ config/tmux-setup.md]
-    A --> E[模型选择<br/>→ config/model-selection.md]
-    A --> F[工作流<br/>→ config/two-phase-workflow.md]
-    A --> G[测试配置<br/>→ config/python-playwright.md]
+    A[遇到问题?] --> B[基础配置<br/>-config/settings-json.md]
+    A --> C[Git 工作流<br/>-config/git-workflow.md]
+    A --> D[tmux 分屏<br/>-config/tmux-setup.md]
+    A --> E[模型选择<br/>-config/model-selection.md]
+    A --> F[工作流<br/>-config/two-phase-workflow.md]
+    A --> G[测试配置<br/>-config/python-playwright.md]
 
     style A fill:#e1f5ff
     style B fill:#fff3cd

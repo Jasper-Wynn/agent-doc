@@ -165,9 +165,9 @@ Agent 显示模式：
 
 ```mermaid
 flowchart TD
-    A[权限级别] --> B[最小权限<br/>Read(**)]
-    A --> C[开发权限<br/>Read + Edit + Bash(git)]
-    A --> D[完整权限<br/>全部允许]
+    A[权限级别] --> B["最小权限<br/>Read(**)"]
+    A --> C["开发权限<br/>Read + Edit + Bash(git)"]
+    A --> D["完整权限<br/>全部允许"]
 
     B --> E[安全谨慎]
     C --> F[日常推荐]

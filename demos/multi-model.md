@@ -6,7 +6,7 @@
 
 ## 场景
 
-配置 Claude Code 项目，使用不同模型的 Subagent 实现两阶段开发工作流：**设计确认 → 执行实现**
+配置 Claude Code 项目，使用不同模型的 Subagent 实现两阶段开发工作流：**设计确认 -执行实现**
 
 ## 工作流程
 
@@ -177,9 +177,9 @@ model: claude-haiku-4-5
 3. 未确认前禁止进入第二阶段
 
 ### 第二阶段：执行（确认后）
-- @agent-backend → 实现接口
-- @agent-tester → pytest + playwright
-- @agent-devops → 更新 CI/CD
+- @agent-backend -实现接口
+- @agent-tester -pytest + playwright
+- @agent-devops -更新 CI/CD
 
 ## Git 规范
 - 每个 agent 完成后自动 commit
@@ -218,7 +218,7 @@ claude "开发用户权限模块"
 数据库用 PostgreSQL，其他没问题，确认执行
 
 # 主 agent 收到确认后自动触发第二阶段
-# backend → tester → devops 依次执行
+# backend -tester -devops 依次执行
 ```
 
 ## 权限配置说明
