@@ -35,9 +35,9 @@ flowchart TD
     style F fill:#fff3cd
     style G fill:#4caf50
     style H fill:#2196f3
-    style I fill:#64b5f6"
-    style J fill:#ff9800"
-    style K fill:#ff5722"
+    style I fill:#64b5f6
+    style J fill:#ff9800
+    style K fill:#ff5722
 ```
 
 ## 任务描述

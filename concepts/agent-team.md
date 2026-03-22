@@ -74,8 +74,8 @@ flowchart TD
     style C fill:#2196f3
     style D fill:#c8e6c9
     style E fill:#81c784
-    style F fill:#66bb6a"
-    style G fill:#ffcc80"
+    style F fill:#66bb6a
+    style G fill:#ffcc80
 ```
 
 ## 典型场景

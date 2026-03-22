@@ -21,7 +21,7 @@ flowchart TD
     style A fill:#e1f5ff
     style B fill:#f44336
     style C fill:#ff9800
-    style D fill:#ff5722"
+    style D fill:#ff5722
     style E fill:#4caf50
     style F fill:#c8e6c9
     style G fill:#81c784
