@@ -59,7 +59,7 @@ flowchart TD
     A[管理策略] --> B[分阶段处理<br/>不要一次处理整个项目]
     A --> C[使用 @ 引用<br/>不复制粘贴大段内容]
     A --> D[使用 Subagent<br/>隔离大文件分析]
-    A --> E[/clear 清理<br/>定期清理上下文]
+    A --> E["/clear 清理<br/>定期清理上下文"]
 
     style A fill:#e1f5ff
     style B fill:#4caf50
