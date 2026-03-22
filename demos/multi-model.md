@@ -17,7 +17,7 @@ flowchart TD
     C --> D{人工确认?}
     D -->|否| B
     D -->|是| E["第二阶段: 执行"]
-    E --> F["@agent-backend<br/>Sonnet 4.6<br/>实现接口]
+    E --> F["@agent-backend<br/>Sonnet 4.6<br/>实现接口"]
     F --> G["@agent-tester<br/>Haiku 4.5<br/>pytest + playwright"]
     G --> H["@agent-devops<br/>Haiku 4.5<br/>更新 CI/CD"]
 
