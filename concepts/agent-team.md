@@ -31,9 +31,9 @@ flowchart TD
     style A2 fill:#c8e6c9
     style A3 fill:#c8e6c9
     style B1 fill:#4caf50
-    B2 fill:#ff9800
-    B3 fill:#2196f3
-    B4 fill:#9c27b0
+    style B2 fill:#ff9800
+    style B3 fill:#2196f3
+    style B4 fill:#9c27b0
 ```
 
 ## Agent Team 特点
