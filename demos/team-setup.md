@@ -331,7 +331,23 @@ tools: Read, Write, Edit, Bash
 3. **共享信息**：重要决策通知全队
 4. **质量优先**：不达标不交付
 
-## 任务依赖
+## Git 规范
+
+- 每个 teammate 完成任务后 commit
+- 格式：`<type>(<role>): <description>`
+- 例：`feat(frontend): 实现登录页面`
+- 不主动 push，由 lead 统一确认
+
+## 冲突解决
+
+- API 接口冲突：frontend 和 backend 协商
+- 优先级冲突：lead 决策
+- 技术方案冲突：团队讨论，lead 拍板
+```
+
+### 任务依赖图
+
+在 CLAUDE.md 中可以添加 mermaid 图表展示任务依赖：
 
 ```mermaid
 flowchart TD
@@ -348,20 +364,6 @@ flowchart TD
     style D fill:#4caf50
     style E fill:#9c27b0
     style F fill:#66bb6a
-```
-
-## Git 规范
-
-- 每个 teammate 完成任务后 commit
-- 格式：`<type>(<role>): <description>`
-- 例：`feat(frontend): 实现登录页面`
-- 不主动 push，由 lead 统一确认
-
-## 冲突解决
-
-- API 接口冲突：frontend 和 backend 协商
-- 优先级冲突：lead 决策
-- 技术方案冲突：团队讨论，lead 拍板
 ```
 
 ## 4. 实际使用示例
