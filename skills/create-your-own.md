@@ -41,6 +41,8 @@ tags: [category, tags]        # 标签
 
 ### 知识型 Skill
 
+用于存储项目特定的知识、架构约定、规范等。
+
 ```markdown
 ---
 name: project-architecture
@@ -51,17 +53,13 @@ description: 项目架构说明
 
 项目采用分层架构：
 
-```
-┌─────────────┐
-│  前端层     │  React + TypeScript
-├─────────────┤
-│  API 层     │  RESTful API
-├─────────────┤
-│  服务层     │  业务逻辑
-├─────────────┤
-│  数据层     │  PostgreSQL
-└─────────────┘
-```
+前端层: React + TypeScript
+     ↓
+API 层: RESTful API
+     ↓
+服务层: 业务逻辑
+     ↓
+数据层: PostgreSQL
 
 ## 关键约定
 - API 路径: /api/v1/*
