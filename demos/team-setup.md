@@ -311,7 +311,6 @@ tools: Read, Write, Edit, Bash
 
 当收到复杂任务时，自动启动 Agent Team：
 
-```
 "启动 Agent Team 完成以下任务：
 
 任务描述：[用户需求]
@@ -324,7 +323,6 @@ tools: Read, Write, Edit, Bash
 - @teammate-devops: 部署配置
 
 请创建共享任务列表，自我协调完成。"
-```
 
 ## 协作原则
 
