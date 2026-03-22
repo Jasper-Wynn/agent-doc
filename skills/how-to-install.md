@@ -5,9 +5,9 @@
 ```mermaid
 flowchart TD
     A[安装 Skill] --> B[内置 Slash 命令<br/>无需安装]
-    A --> C[本地文件<br/>.claude/skills/]
-    A --> D[全局安装<br/>~/.claude/skills/]
-    A --> E[从 URL 安装<br/>claude skill add]
+    A --> C["本地文件<br/>.claude/skills/"]
+    A --> D["全局安装<br/>~/.claude/skills/"]
+    A --> E["从 URL 安装<br/>claude skill add"]
 
     style A fill:#e1f5ff
     style B fill:#4caf50

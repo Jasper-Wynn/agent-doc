@@ -34,9 +34,9 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A{任务类型} --> B[复杂推理<br/>-Opus]
-    A --> C[常规开发<br/>-Sonnet]
-    A --> D[简单重复<br/>-Haiku]
+    A{任务类型} --> B["复杂推理<br/>-Opus"]
+    A --> C["常规开发<br/>-Sonnet"]
+    A --> D["简单重复<br/>-Haiku"]
 
     B --> E[架构设计<br/>安全审查<br/>算法优化]
     C --> F[代码实现<br/>文档编写<br/>Bug 修复]
