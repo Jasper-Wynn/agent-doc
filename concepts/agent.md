@@ -11,13 +11,11 @@
 ```mermaid
 flowchart LR
     A[Chatbot] --> B["用户 -模型 -回答 -结束"]
-
     C[Agent] --> D["用户 -目标 -循环执行 -结果"]
-
-    style A fill:#e1f5ff
-    style B fill:#ffcc80
-    style C fill:#c8e6c9
-    style D fill:#4caf50
+    style A fill: #e1f5ff
+    style B fill: #ffcc80
+    style C fill: #c8e6c9
+    style D fill: #4caf50
 ```
 
 ## Agent 循环
@@ -32,13 +30,13 @@ flowchart TD
     F -->|否| B
     F -->|是| G[✓ 完成]
 
-    style A fill:#e1f5ff
-    style B fill:#fff3cd
-    style C fill:#c8e6c9
-    style D fill:#81c784
-    style E fill:#4caf50
-    style F fill:#ffc107
-    style G fill:#66bb6a
+style A fill: #e1f5ff
+style B fill: #fff3cd
+style C fill:#c8e6c9
+style D fill: #81c784
+style E fill: #4caf50
+style F fill: #ffc107
+style G fill: #66bb6a
 ```
 
 ## 相关概念
@@ -49,11 +47,11 @@ flowchart TD
 
 ## 工具对比
 
-| 工具 | 类型 | 特点 |
-|------|------|------|
+| 工具              | 类型  | 特点          |
+|-----------------|-----|-------------|
 | **Claude Code** | CLI | 最强 Agent 能力 |
-| **Cursor** | IDE | 多 Agent 并行 |
-| **OpenDevin** | 开源 | 自主软件工程师 |
+| **Cursor**      | IDE | 多 Agent 并行  |
+| **OpenDevin**   | 开源  | 自主软件工程师     |
 
 ## 资源链接
 

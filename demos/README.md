@@ -4,16 +4,16 @@
 
 ## 示例列表
 
-| 文件 | 说明 | 难度 |
-|------|------|------|
-| **hello-world.md** | 基础 Agent 使用 | ⭐ |
-| **subagent.md** | Subagent 隔离任务 | ⭐⭐ |
-| **agent-team.md** | Agent Team 协作 | ⭐⭐⭐ |
-| **mcp.md** | MCP 工具集成 | ⭐⭐ |
-| **multi-model.md** | 多模型工作流 | ⭐⭐⭐⭐ |
-| **subagent-setup.md** | Subagent 配置 | ⭐⭐⭐ |
-| **team-setup.md** | Agent Team 配置 | ⭐⭐⭐⭐ |
-| **faq.md** | 常见问题 | ⭐⭐ |
+| 文件                    | 说明            | 难度   |
+|-----------------------|---------------|------|
+| **hello-world.md**    | 基础 Agent 使用   | ⭐    |
+| **subagent.md**       | Subagent 隔离任务 | ⭐⭐   |
+| **agent-team.md**     | Agent Team 协作 | ⭐⭐⭐  |
+| **mcp.md**            | MCP 工具集成      | ⭐⭐   |
+| **multi-model.md**    | 多模型工作流        | ⭐⭐⭐⭐ |
+| **subagent-setup.md** | Subagent 配置   | ⭐⭐⭐  |
+| **team-setup.md**     | Agent Team 配置 | ⭐⭐⭐⭐ |
+| **faq.md**            | 常见问题          | ⭐⭐   |
 
 ## 快速开始
 

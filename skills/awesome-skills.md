@@ -2,34 +2,35 @@
 
 ## 官方资源
 
-| 资源 | 链接 | 说明 |
-|------|------|------|
-| **Claude Code Skills** | https://code.claude.com/docs/en/skills | 官方文档 |
-| **示例仓库** | https://github.com/anthropics/claude-code-skills | 官方示例 |
-| **创建指南** | https://code.claude.com/docs/en/skills/creating | 创建教程 |
+| 资源                     | 链接                                               | 说明   |
+|------------------------|--------------------------------------------------|------|
+| **Claude Code Skills** | https://code.claude.com/docs/en/skills           | 官方文档 |
+| **示例仓库**               | https://github.com/anthropics/claude-code-skills | 官方示例 |
+| **创建指南**               | https://code.claude.com/docs/en/skills/creating  | 创建教程 |
 
 ## 社区资源
 
 ### Skills 发现平台
 
-| 平台 | 链接 | 特点 |
-|------|------|------|
-| **skills.sh** | https://skills.sh | Skills 导航网站 |
-| **Awesome Claude** | https://github.com/topics/claude-skill | GitHub 话题 |
-| **Claude Recipes** | https://github.com/topics/claude-recipe | 社区分享 |
+| 平台                 | 链接                                      | 特点          |
+|--------------------|-----------------------------------------|-------------|
+| **skills.sh**      | https://skills.sh                       | Skills 导航网站 |
+| **Awesome Claude** | https://github.com/topics/claude-skill  | GitHub 话题   |
+| **Claude Recipes** | https://github.com/topics/claude-recipe | 社区分享        |
 
 ### 推荐仓库
 
-| 仓库 | 链接 | 描述 |
-|------|------|------|
-| **claude-code-skills** | https://github.com/anthropics/claude-code-skills | 官方示例集合 |
-| **awesome-claude-skills** | https://github.com/topics/awesome-claude | 社区精选 |
+| 仓库                        | 链接                                               | 描述     |
+|---------------------------|--------------------------------------------------|--------|
+| **claude-code-skills**    | https://github.com/anthropics/claude-code-skills | 官方示例集合 |
+| **awesome-claude-skills** | https://github.com/topics/awesome-claude         | 社区精选   |
 
 ## 精选 Skills
 
 ### 开发工作流
 
 #### Committer
+
 ```markdown
 ---
 name: committer
@@ -40,6 +41,7 @@ description: 智能提交信息生成
 ```
 
 #### PR Reviewer
+
 ```markdown
 ---
 name: pr-reviewer
@@ -56,6 +58,7 @@ description: 自动 PR 审查
 ### 代码生成
 
 #### Component Generator
+
 ```markdown
 ---
 name: gen-component
@@ -70,6 +73,7 @@ description: 生成 React 组件
 ```
 
 #### API Route
+
 ```markdown
 ---
 name: gen-api
@@ -86,6 +90,7 @@ description: 生成 API 路由
 ### 质量保证
 
 #### Test Generator
+
 ```markdown
 ---
 name: gen-test
@@ -99,6 +104,7 @@ description: 生成单元测试
 ```
 
 #### Lint Fixer
+
 ```markdown
 ---
 name: lint-fix
@@ -135,6 +141,7 @@ flowchart LR
 ## 技能模板
 
 ### 通用模板
+
 ```markdown
 ---
 name: your-skill-name

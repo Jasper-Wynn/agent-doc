@@ -67,12 +67,12 @@ claude
 
 ## 常用 MCP 服务器
 
-| 服务器 | 功能 | 安装 |
-|--------|------|------|
-| **GitHub** | PR 管理、代码操作 | `npm install @modelcontextprotocol/server-github` |
-| **Postgres** | 数据库查询 | `npm install @modelcontextprotocol/server-postgres` |
-| **Filesystem** | 文件访问 | `npm install @modelcontextprotocol/server-filesystem` |
-| **Puppeteer** | 浏览器控制 | `npm install @modelcontextprotocol/server-puppeteer` |
+| 服务器            | 功能         | 安装                                                    |
+|----------------|------------|-------------------------------------------------------|
+| **GitHub**     | PR 管理、代码操作 | `npm install @modelcontextprotocol/server-github`     |
+| **Postgres**   | 数据库查询      | `npm install @modelcontextprotocol/server-postgres`   |
+| **Filesystem** | 文件访问       | `npm install @modelcontextprotocol/server-filesystem` |
+| **Puppeteer**  | 浏览器控制      | `npm install @modelcontextprotocol/server-puppeteer`  |
 
 ## 示例配置
 

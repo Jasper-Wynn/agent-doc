@@ -74,13 +74,13 @@ A: 详见 [python-playwright.md](../config/python-playwright.md)
 
 ## 完整配置示例
 
-| 需求 | 查看指南 |
-|------|----------|
-| Python 项目配置 | [python-playwright.md](../config/python-playwright.md) |
-| 多模型工作流 | [two-phase-workflow.md](../config/two-phase-workflow.md) |
-| Subagent 配置 | [06-subagent-config](subagent-setup/) |
-| Agent Team 配置 | [07-agent-team-config](team-setup/) |
-| 完整项目配置 | [05-claude-code-config](multi-model/) |
+| 需求            | 查看指南                                                     |
+|---------------|----------------------------------------------------------|
+| Python 项目配置   | [python-playwright.md](../config/python-playwright.md)   |
+| 多模型工作流        | [two-phase-workflow.md](../config/two-phase-workflow.md) |
+| Subagent 配置   | [06-subagent-config](subagent-setup/)                    |
+| Agent Team 配置 | [07-agent-team-config](team-setup/)                      |
+| 完整项目配置        | [05-claude-code-config](multi-model/)                    |
 
 ## 资料来源
 

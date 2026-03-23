@@ -54,11 +54,11 @@ Subagent 默认模型：
 "subagentModel": "claude-sonnet-4-6"
 ```
 
-| 模型 | 适用场景 |
-|------|----------|
-| `claude-opus-4-6` | 复杂推理、架构设计 |
-| `claude-sonnet-4-6` | 日常开发（默认） |
-| `claude-haiku-4-5` | 简单重复任务 |
+| 模型                  | 适用场景      |
+|---------------------|-----------|
+| `claude-opus-4-6`   | 复杂推理、架构设计 |
+| `claude-sonnet-4-6` | 日常开发（默认）  |
+| `claude-haiku-4-5`  | 简单重复任务    |
 
 ### teammateMode
 
@@ -68,17 +68,18 @@ Agent 显示模式：
 "teammateMode": "auto"  // auto | tmux | in-process
 ```
 
-| 模式 | 说明 |
-|------|------|
-| `auto` | tmux 内自动分 pane，否则 in-process |
-| `tmux` | 强制使用 tmux split pane |
-| `in-process` | 所有 agent 在同一终端 |
+| 模式           | 说明                           |
+|--------------|------------------------------|
+| `auto`       | tmux 内自动分 pane，否则 in-process |
+| `tmux`       | 强制使用 tmux split pane         |
+| `in-process` | 所有 agent 在同一终端               |
 
 ### env - 环境变量
 
 #### Python 版本配置
 
 **使用 pyenv**:
+
 ```jsonc
 {
   "env": {
@@ -89,6 +90,7 @@ Agent 显示模式：
 ```
 
 **使用 virtualenv**:
+
 ```jsonc
 {
   "env": {
@@ -100,6 +102,7 @@ Agent 显示模式：
 ```
 
 **使用 conda**:
+
 ```jsonc
 {
   "env": {
@@ -113,6 +116,7 @@ Agent 显示模式：
 #### Node 版本配置
 
 **使用 nvm**:
+
 ```jsonc
 {
   "env": {
@@ -123,6 +127,7 @@ Agent 显示模式：
 ```
 
 **使用系统 node**:
+
 ```jsonc
 {
   "env": {

@@ -38,11 +38,11 @@ claude
 
 ## 三种模式对比
 
-| 模式 | 设置 | 效果 |
-|------|------|------|
-| **auto** | `"teammateMode": "auto"` | tmux 内自动分 pane，否则同终端 |
-| **tmux** | `"teammateMode": "tmux"` | 强制使用 tmux split pane |
-| **in-process** | `"teammateMode": "in-process"` | 所有 agent 在同一终端 |
+| 模式             | 设置                             | 效果                   |
+|----------------|--------------------------------|----------------------|
+| **auto**       | `"teammateMode": "auto"`       | tmux 内自动分 pane，否则同终端 |
+| **tmux**       | `"teammateMode": "tmux"`       | 强制使用 tmux split pane |
+| **in-process** | `"teammateMode": "in-process"` | 所有 agent 在同一终端       |
 
 ## tmux 基础操作
 
@@ -61,45 +61,45 @@ sudo yum install tmux
 
 ### 会话管理
 
-| 命令 | 功能 |
-|------|------|
-| `tmux new-session -s name` | 创建新会话 |
-| `tmux attach -t name` | 连接会话 |
-| `tmux detach` | 分离会话（Ctrl+b d） |
-| `tmux list-sessions` | 列出会话 |
-| `tmux kill-session -t name` | 删除会话 |
+| 命令                          | 功能             |
+|-----------------------------|----------------|
+| `tmux new-session -s name`  | 创建新会话          |
+| `tmux attach -t name`       | 连接会话           |
+| `tmux detach`               | 分离会话（Ctrl+b d） |
+| `tmux list-sessions`        | 列出会话           |
+| `tmux kill-session -t name` | 删除会话           |
 
 ### 窗口操作
 
-| 快捷键 | 功能 |
-|--------|------|
-| `Ctrl+b c` | 创建新窗口 |
-| `Ctrl+b n` | 下一个窗口 |
-| `Ctrl+b p` | 上一个窗口 |
+| 快捷键          | 功能      |
+|--------------|---------|
+| `Ctrl+b c`   | 创建新窗口   |
+| `Ctrl+b n`   | 下一个窗口   |
+| `Ctrl+b p`   | 上一个窗口   |
 | `Ctrl+b 0-9` | 切换到指定窗口 |
-| `Ctrl+b ,` | 重命名窗口 |
+| `Ctrl+b ,`   | 重命名窗口   |
 
 ### Pane 操作
 
-| 快捷键 | 功能 |
-|--------|------|
-| `Ctrl+b "` | 水平分割（上下） |
-| `Ctrl+b %` | 垂直分割（左右） |
-| `Ctrl+b 方向键` | 切换 pane |
-| `Ctrl+b o` | 依次切换 pane |
-| `Ctrl+b z` | 放大/恢复 pane |
-| `Ctrl+b x` | 关闭 pane |
-| `Ctrl+b q` | 显示 pane 编号，按数字切换 |
+| 快捷键          | 功能               |
+|--------------|------------------|
+| `Ctrl+b "`   | 水平分割（上下）         |
+| `Ctrl+b %`   | 垂直分割（左右）         |
+| `Ctrl+b 方向键` | 切换 pane          |
+| `Ctrl+b o`   | 依次切换 pane        |
+| `Ctrl+b z`   | 放大/恢复 pane       |
+| `Ctrl+b x`   | 关闭 pane          |
+| `Ctrl+b q`   | 显示 pane 编号，按数字切换 |
 
 ### 滚动模式
 
-| 快捷键 | 功能 |
-|--------|------|
-| `Ctrl+b [` | 进入滚动模式 |
-| 方向键 / `PageUp/PageDown` | 滚动 |
-| `q` | 退出滚动模式 |
-| `/` | 搜索（向后） |
-| `?` | 搜索（向前） |
+| 快捷键                     | 功能     |
+|-------------------------|--------|
+| `Ctrl+b [`              | 进入滚动模式 |
+| 方向键 / `PageUp/PageDown` | 滚动     |
+| `q`                     | 退出滚动模式 |
+| `/`                     | 搜索（向后） |
+| `?`                     | 搜索（向前） |
 
 ## Agent Team 布局示例
 
@@ -114,6 +114,7 @@ sudo yum install tmux
 ```
 
 启动命令：
+
 ```bash
 # 创建会话并分割
 tmux new-session -s claude \; split-window -h \; split-window \; split-window -h
@@ -199,6 +200,7 @@ tmux attach -t $SESSION
 ```
 
 使用：
+
 ```bash
 chmod +x ~/bin/claude-team.sh
 ~/bin/claude-team.sh

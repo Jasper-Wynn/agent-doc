@@ -104,16 +104,19 @@ python -m pytest tests/unit/ --cov --cov-report=term
 ```
 
 ### 完成标准
+
 - 覆盖率 ≥ 80%
 - 不修改业务代码
 
 ## Playwright E2E 测试
 
 ### 测试位置
+
 - E2E 测试：`tests/e2e/`
 - 失败截图：`tests/e2e/screenshots/`
 
 ### 运行命令
+
 ```bash
 playwright test --reporter=list
 ```
@@ -139,9 +142,11 @@ def test_login(page: Page):
 ```
 
 ### 完成标准
+
 - E2E 场景全部覆盖
 - 失败有截图
 - 执行 `git commit`
+
 ```
 
 ## requirements.txt
@@ -359,6 +364,7 @@ A: 在 `playwright.config.toml` 中增加 `timeout` 值
 **Q: 如何只运行单个测试？**
 
 A:
+
 ```bash
 # pytest 单个文件
 pytest tests/unit/test_auth.py

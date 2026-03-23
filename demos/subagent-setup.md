@@ -60,11 +60,11 @@ your-project/
 
 ### 配置选项说明
 
-| 字段 | 值 | 说明 |
-|------|------|------|
-| **subagentModel** | `claude-opus-4-6` / `claude-sonnet-4-6` / `claude-haiku-4-5` | Subagent 默认模型 |
-| **teammateMode** | `auto` / `tmux` / `in-process` | Agent 显示模式 |
-| **permissions.allow** | 权限列表 | 允许的操作 |
+| 字段                    | 值                                                            | 说明            |
+|-----------------------|--------------------------------------------------------------|---------------|
+| **subagentModel**     | `claude-opus-4-6` / `claude-sonnet-4-6` / `claude-haiku-4-5` | Subagent 默认模型 |
+| **teammateMode**      | `auto` / `tmux` / `in-process`                               | Agent 显示模式    |
+| **permissions.allow** | 权限列表                                                         | 允许的操作         |
 
 ### teammateMode 三种模式
 
@@ -111,13 +111,13 @@ memory: project
 
 ### Frontmatter 字段
 
-| 字段 | 必填 | 说明 |
-|------|------|------|
-| **name** | ✅ | Agent 名称，用于调用 |
-| **description** | ✅ | 功能描述 |
-| **tools** | ❌ | 可用工具（默认全部） |
-| **model** | ❌ | 指定模型（覆盖全局） |
-| **memory** | ❌ | 记忆命名空间 |
+| 字段              | 必填 | 说明            |
+|-----------------|----|---------------|
+| **name**        | ✅  | Agent 名称，用于调用 |
+| **description** | ✅  | 功能描述          |
+| **tools**       | ❌  | 可用工具（默认全部）    |
+| **model**       | ❌  | 指定模型（覆盖全局）    |
+| **memory**      | ❌  | 记忆命名空间        |
 
 ### 示例 Agent 文件
 
@@ -178,6 +178,7 @@ tools: Read, Grep, Glob
 grep -r "password\|secret\|token\|api_key" --include="*.js" --include="*.py"
 grep -r "eval(\|exec(" --include="*.js" --include="*.py"
 ```
+
 ```
 
 #### test-runner.md
@@ -362,13 +363,13 @@ claude
 
 ### tmux 快捷键
 
-| 快捷键 | 功能 |
-|--------|------|
-| `Ctrl+b c` | 新建窗口 |
-| `Ctrl+b "` | 分割窗口（水平） |
-| `Ctrl+b %` | 分割窗口（垂直） |
-| `Ctrl+b 方向键` | 切换 pane |
-| `Ctrl+b z` | 放大/恢复 pane |
+| 快捷键          | 功能         |
+|--------------|------------|
+| `Ctrl+b c`   | 新建窗口       |
+| `Ctrl+b "`   | 分割窗口（水平）   |
+| `Ctrl+b %`   | 分割窗口（垂直）   |
+| `Ctrl+b 方向键` | 切换 pane    |
+| `Ctrl+b z`   | 放大/恢复 pane |
 
 ## 常见问题
 
