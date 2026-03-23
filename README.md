@@ -137,7 +137,7 @@ flowchart TD
     A --> C[Qwen 3.5-Plus<br/>HF 榜首]
     A --> D[Llama 4<br/>原生多模态]
     E[本地部署] --> F["ollama + Qwen 3.5-27B"]
-    F --> G[8GB: 7B<br/>16GB: 27B<br/>24GB: 122B]
+    F --> G["8GB: 7B<br/>16GB: 14B<br/>32GB: 32B<br/>64GB: 72B<br/>128GB: 122B"]
     style A fill: #e1f5ff
     style B fill: #f44336
     style C fill: #4caf50
